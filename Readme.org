@@ -1,0 +1,37 @@
+* Library Information
+ Readme.org --- Navigate and visualize the mark-ring
+
+ - Filename :: [[file:mark.el][mark.el]]
+ - Description :: Navigate and visualize the mark-ring
+ - Author :: Greg Rowe <emacs@therowes.net>
+ - Maintainer :: Joe Bloggs <vapniks@yahoo.com>
+ - Copyright (c) 2003 Greg Rowe
+ - Created :: 2003
+ - Version :: 0.1
+ - Last-Updated :: 2013-05-10 23:09:35
+ -           By :: Joe Bloggs
+ - URL :: https://github.com/vapniks/mark
+ - Keywords :: convenience
+ - Compatibility :: GNU Emacs 24.3.1
+ - Package-Requires :: ((fm "1.0"))
+
+* Possible Dependencies
+fm
+* Commentary
+This library provides the commands to navigate and display the mark ring.
+The `show-marks' command displays a buffer listing the marks in the buffer from which it was called.
+You can then press enter on one of the listed marks to jump to it, or press d to delete it from the
+mark ring. You can also use the `forward-mark' and `backward-mark' commands to navigate the marks in
+the mark ring. 
+* Installation
+
+ - If you have [[http://www.marmalade-repo.org/][marmalade-repo.org]], this mark is part of the emacs packages you can install.  
+   Just type M-x package-install mark marmalade 
+ - Otherwise download the library from here Lisp:mark.el, and put it in a directory in the emacs load path, 
+   like ~/.emacs.d
+ - Add (require 'mark) in your ~/.emacs file
+ - I recommend also binding the commands to global keys, e.g:
+
+   (global-set-key (kbd "<C-s-right>") 'forward-mark)
+   (global-set-key (kbd "<C-s-left>") 'backward-mark)
+   (global-set-key (kbd "<C-s-down>") 'show-marks)
