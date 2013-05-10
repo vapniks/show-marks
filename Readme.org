@@ -31,7 +31,8 @@ the mark ring.
    like ~/.emacs.d
  - Add (require 'mark) in your ~/.emacs file
  - I recommend also binding the commands to global keys, e.g:
-
+#+BEGIN_SRC emacs-lisp
    (global-set-key (kbd "<C-s-right>") 'forward-mark)
    (global-set-key (kbd "<C-s-left>") 'backward-mark)
    (global-set-key (kbd "<C-s-down>") 'show-marks)
+#+END_SRC
