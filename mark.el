@@ -6,8 +6,8 @@
 ;; Maintainer: Joe Bloggs <vapniks@yahoo.com>
 ;; Copyright (c) 2003 Greg Rowe
 ;; Created: 2003
-;; Version: 0.1
-;; Last-Updated: 2013-05-10 23:09:35
+;; Version: 0.3
+;; Last-Updated: 2013-05-20 23:37:35
 ;;           By: Joe Bloggs
 ;; URL: https://github.com/vapniks/mark
 ;; Keywords: convenience
