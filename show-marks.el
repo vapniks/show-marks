@@ -1,6 +1,6 @@
-;;; mark.el --- Navigate and visualize the mark-ring
+;;; show-marks.el --- Navigate and visualize the mark-ring
 
-;; Filename: mark.el
+;; Filename: show-marks.el
 ;; Description: Navigate and visualize the mark-ring
 ;; Author: Greg Rowe <emacs@therowes.net>
 ;; Maintainer: Joe Bloggs <vapniks@yahoo.com>
@@ -48,7 +48,7 @@
 
 ;;; Installation:
 ;;
-;; Put mark.el in a directory in your load-path, e.g. ~/.emacs.d/
+;; Put show-marks.el in a directory in your load-path, e.g. ~/.emacs.d/
 ;; You can add a directory to your load-path with the following line in ~/.emacs
 ;; (add-to-list 'load-path (expand-file-name "~/elisp"))
 ;; where ~/elisp is the directory you want to add 
@@ -256,9 +256,9 @@ with out affecting the mark-ring."
       (show-mark old-buffer-mark-ring)
       (mark-mode))))
 
-(provide 'mark)
+(provide 'show-marks)
 
 ;; (magit-push)
-;; (yaoddmuse-post "EmacsWiki" "mark.el" (buffer-name) (buffer-string) "update")
+;; (yaoddmuse-post "EmacsWiki" "show-marks.el" (buffer-name) (buffer-string) "update")
 
-;;; mark.el ends here
+;;; show-marks.el ends here
