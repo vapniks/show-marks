@@ -56,7 +56,7 @@
 ;;
 ;; Add the following to your ~/.emacs startup file.
 ;;
-;; (require 'mark)
+;; (require 'show-marks)
 ;;
 ;;  I recommend also binding the commands to global keys, e.g:
 ;; 
