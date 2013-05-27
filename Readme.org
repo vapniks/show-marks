@@ -1,7 +1,7 @@
 * Library Information
  Readme.org --- Navigate and visualize the mark-ring
 
- - Filename :: [[file:mark.el][mark.el]]
+ - Filename :: [[file:mark.el][show-marks.el]]
  - Description :: Navigate and visualize the mark-ring
  - Author :: Greg Rowe <emacs@therowes.net>
  - Maintainer :: Joe Bloggs <vapniks@yahoo.com>
@@ -10,7 +10,7 @@
  - Version :: 0.1
  - Last-Updated :: 2013-05-10 23:09:35
  -           By :: Joe Bloggs
- - URL :: https://github.com/vapniks/mark
+ - URL :: https://github.com/vapniks/show-marks
  - Keywords :: convenience
  - Compatibility :: GNU Emacs 24.3.1
  - Package-Requires :: ((fm "1.0"))
@@ -29,7 +29,7 @@ the mark ring.
    Just type M-x package-install mark marmalade 
  - Otherwise download the library from here Lisp:mark.el, and put it in a directory in the emacs load path, 
    like ~/.emacs.d
- - Add (require 'mark) in your ~/.emacs file
+ - Add (require 'show-marks) in your ~/.emacs file
  - I recommend also binding the commands to global keys, e.g:
 #+BEGIN_SRC emacs-lisp
    (global-set-key (kbd "<C-s-right>") 'forward-mark)
